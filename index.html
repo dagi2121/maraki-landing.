@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maraki All in One</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Maraki All in One</h1>
+    <p>One-stape solution for Marketing, Technology, Design, Events, and More.</p>
+    <button class="btn">Get Started</button>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>Advertising & Digital Marketing</h3>
+        <ul>
+          <li>Graphics Design, Video & Photography</li>
+          <li>Banner, Brochure, Light Box, Business Card</li>
+          <li>Advertising Packages</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Web Development & Package</h3>
+        <ul>
+          <li>SEO Optimization</li>
+          <li>Boost Marketing</li>
+          <li>Payment Card Integration</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Installation</h3>
+        <ul>
+          <li>Electric Systems</li>
+          <li>CCTV Setup</li>
+          <li>Security Systems</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Interior Design & Finishing</h3>
+        <ul>
+          <li>Building Finishing</li>
+          <li>Home Décor</li>
+          <li>Studio Building</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cleaning Service</h3>
+        <ul>
+          <li>Home Cleaning</li>
+          <li>Building Cleaning</li>
+          <li>Event Cleaning</li>
+          <li>VIP Car Washing</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Delivery Service</h3>
+        <ul>
+          <li>Surprise Gifts</li>
+          <li>Market Packages</li>
+          <li>Asbeza Delivery</li>
+          <li>Document Delivery</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Decors & Event Organizing</h3>
+        <ul>
+          <li>Event Décor & Rental</li>
+          <li>DJ & Sound System Rental</li>
+          <li>Event Planning</li>
+          <li>Lighting Setup</li>
+          <li>Photography & Videography</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="filter-buttons">
+      <button class="btn filter-btn active" data-category="all">All</button>
+      <button class="btn filter-btn" data-category="Events">Events</button>
+      <button class="btn filter-btn" data-category="Interior">Interior</button>
+      <button class="btn filter-btn" data-category="Marketing">Marketing</button>
+      <button class="btn filter-btn" data-category="Cleaning">Cleaning</button>
+      <button class="btn filter-btn" data-category="Delivery">Delivery</button>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-category="Events">
+        <img src="assets\eve1(1).jpg"alt=Event&Decoration" />
+        <h3>Event Decoration</h3>
+      </div>
+      <div class="portfolio-item" data-category="Interior">
+        <img src="assets\deco1.jpg" alt="Interior Design" />
+        <h3>Interior Design</h3>
+      </div>
+      <div class="portfolio-item" data-category="Marketing">
+        <img src="assets\web1.jpg" alt="Advertising Campaign" />
+        <h3>Advertising Campaign</h3>
+      </div>
+      <div class="portfolio-item" data-category="Cleaning">
+        <img src= "assets\cle1.jpg"alt="Cleaning Service" />
+        <h3>Cleaning Service</h3>
+      </div>
+      <div class="portfolio-item" data-category="Delivery">
+        <img src="assets\dilv1.jpg" alt="Delivery Service" />
+        <h3>Delivery Service</h3>
+      </div>
+      <div class="portfolio-item" data-category="Events">
+        <img src="assets\came1.jpg" alt="Photography" />
+        <h3>Photography & Videography</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>Why Choose Us?</h2>
+    <p>
+      At Maraki All in One, we provide a complete suite of services to help
+      you succeed in business and lifestyle. From marketing to technology,
+      from décor to cleaning, we deliver professionalism and excellence.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Maraki All in One. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
